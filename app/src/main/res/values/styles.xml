@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="grid_view">
+        <item name="android:background">#25272d</item>
+    </style>
+
 </resources>
