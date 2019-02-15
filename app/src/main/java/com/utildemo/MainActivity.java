@@ -10,10 +10,12 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.utildemo.activity.GridViewActivity;
+import com.utildemo.activity.ObserverActivity;
 
 public class MainActivity extends AppCompatActivity {
     TextView window_size;
     Button btn_grid_view;
+    Button btn_obesrver_model;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,19 +23,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         window_size = findViewById(R.id.window_size);
         btn_grid_view = findViewById(R.id.btn_grid_view);
+        btn_obesrver_model = findViewById(R.id.btn_obesrver_model);
 
         DisplayMetrics dm = new DisplayMetrics();
         this.getWindowManager().getDefaultDisplay().getMetrics(dm);
         int screenWidth = dm.widthPixels;
         int screenHeight = dm.heightPixels;
-        Log.i("dyl", "screenWidth" + screenWidth);
-        Log.i("dyl", "screenHeight" + screenHeight);
         window_size.setText(screenWidth + "*" + screenHeight);
         final Intent intent = new Intent(this, GridViewActivity.class);
+        final Intent intent1 = new Intent(this, ObserverActivity.class);
+
         btn_grid_view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(intent);
+            }
+        });
+
+        btn_obesrver_model.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent1);
             }
         });
     }

@@ -18,6 +18,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".activity.ObserverActivity"/>
+
+        <activity android:name=".activity.DelayTimeFuncationActivity"/>
+
+        <activity android:name=".activity.StrategyActivity"/>
+
         <activity android:name=".activity.GridViewActivity"/>
     </application>
 

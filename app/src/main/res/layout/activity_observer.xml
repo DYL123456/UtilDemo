@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/observer_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btn_add1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加第一个" />
+
+    <Button
+        android:id="@+id/btn_add2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加第二个" />
+
+    <Button
+        android:id="@+id/btn_add3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加第三个" />
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知更新" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除一个" />
+</LinearLayout>
