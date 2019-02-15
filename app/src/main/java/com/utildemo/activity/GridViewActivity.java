@@ -74,5 +74,4 @@ public class GridViewActivity extends Activity {
             dataList.add(map);
         }
     }
-
 }

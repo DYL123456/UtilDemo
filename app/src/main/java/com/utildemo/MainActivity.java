@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     TextView window_size;
     Button btn_grid_view;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
