@@ -18,6 +18,13 @@
         android:text="去看一看观察者模式"
         android:id="@+id/btn_obesrver_model"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去看一看装饰者模式"
+        android:id="@+id/btn_decorate_model"/>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

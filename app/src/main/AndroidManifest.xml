@@ -25,6 +25,8 @@
         <activity android:name=".activity.StrategyActivity"/>
 
         <activity android:name=".activity.GridViewActivity"/>
+
+        <activity android:name=".activity.DecorateActivity"/>
     </application>
 
 </manifest>
